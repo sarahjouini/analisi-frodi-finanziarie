@@ -3,7 +3,7 @@ Analisi Transazioni Finanziarie e Rilevamento Frodi
 
 Descrizione
 
-Terzo progetto del mio percorso in data analytics. Ho scelto un dataset di transazioni finanziarie perché si collega al mio percorso di laurea in Economia e Banca, permettendomi di applicare competenze tecniche a un ambito che già conosco dal punto di vista teorico.
+Terzo progetto del mio percorso in data analytics. Ho scelto un dataset di transazioni finanziarie perché si collega al mio percorso di laurea in banca e finanzia, permettendomi di applicare competenze tecniche a un ambito che già conosco dal punto di vista teorico.
 
 Il progetto è in corso (work in progress) e verrà ampliato nelle prossime sessioni.
 
