@@ -26,10 +26,13 @@ Domande di business affrontate
 
 Quali sono i metodi di pagamento più usati nelle transazioni?
 Analisi della colonna use_chip per capire la distribuzione tra Swipe, Chip e Online Transaction.
+
 Qual è l'importo medio delle transazioni?
 Risultato: l'importo medio è di circa $42.98. È stato necessario pulire la colonna amount (rimozione del simbolo $ e conversione da testo a numero) prima del calcolo.
+
 Quali sono le 5 categorie di merchant (mcc) con più transazioni?
 Analisi di frequenza sulla colonna mcc per identificare i tipi di esercenti più comuni.
+
 L'importo medio delle transazioni fraudolente è diverso da quello delle transazioni normali?
 Risultato: le transazioni fraudolente hanno un importo medio di $110,23, quasi 3 volte superiore rispetto alle transazioni normali ($42,85). Questo suggerisce che gli importi più alti potrebbero essere un segnale utile per il rilevamento di frodi.
 
