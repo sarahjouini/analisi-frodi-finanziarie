@@ -3,7 +3,7 @@ Analisi Transazioni Finanziarie e Rilevamento Frodi
 
 Descrizione
 
-Terzo progetto del mio percorso in data analytics. Ho scelto un dataset di transazioni finanziarie perché si collega al mio percorso di laurea in Economia e Banca, permettendomi di applicare competenze tecniche a un ambito che già conosco dal punto di vista teorico.
+Terzo progetto del mio percorso in data analytics. Ho scelto un dataset di transazioni finanziarie perché si collega al mio percorso di laurea in banca e finanzia, permettendomi di applicare competenze tecniche a un ambito che già conosco dal punto di vista teorico.
 
 Il progetto è in corso (work in progress) e verrà ampliato nelle prossime sessioni.
 
@@ -26,10 +26,13 @@ Domande di business affrontate
 
 Quali sono i metodi di pagamento più usati nelle transazioni?
 Analisi della colonna use_chip per capire la distribuzione tra Swipe, Chip e Online Transaction.
+
 Qual è l'importo medio delle transazioni?
 Risultato: l'importo medio è di circa $42.98. È stato necessario pulire la colonna amount (rimozione del simbolo $ e conversione da testo a numero) prima del calcolo.
+
 Quali sono le 5 categorie di merchant (mcc) con più transazioni?
 Analisi di frequenza sulla colonna mcc per identificare i tipi di esercenti più comuni.
+
 L'importo medio delle transazioni fraudolente è diverso da quello delle transazioni normali?
 Risultato: le transazioni fraudolente hanno un importo medio di $110,23, quasi 3 volte superiore rispetto alle transazioni normali ($42,85). Questo suggerisce che gli importi più alti potrebbero essere un segnale utile per il rilevamento di frodi.
 
