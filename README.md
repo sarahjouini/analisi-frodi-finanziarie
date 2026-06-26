@@ -5,7 +5,6 @@ Descrizione
 
 Terzo progetto del mio percorso in data analytics. Ho scelto un dataset di transazioni finanziarie perché si collega al mio percorso di laurea in banca e finanzia, permettendomi di applicare competenze tecniche a un ambito che già conosco dal punto di vista teorico.
 
-Il progetto è in corso (work in progress) e verrà ampliato nelle prossime sessioni.
 
 Dataset
 
@@ -27,14 +26,17 @@ Domande di business affrontate
 Quali sono i metodi di pagamento più usati nelle transazioni?
 Analisi della colonna use_chip per capire la distribuzione tra Swipe, Chip e Online Transaction.
 
-Qual è l'importo medio delle transazioni?
+**Qual è l'importo medio delle transazioni?**
 Risultato: l'importo medio è di circa $42.98. È stato necessario pulire la colonna amount (rimozione del simbolo $ e conversione da testo a numero) prima del calcolo.
 
-Quali sono le 5 categorie di merchant (mcc) con più transazioni?
+**Quali sono le 5 categorie di merchant (mcc) con più transazioni?**
 Analisi di frequenza sulla colonna mcc per identificare i tipi di esercenti più comuni.
 
-L'importo medio delle transazioni fraudolente è diverso da quello delle transazioni normali?
+**L'importo medio delle transazioni fraudolente è diverso da quello delle transazioni normali?**
 Risultato: le transazioni fraudolente hanno un importo medio di $110,23, quasi 3 volte superiore rispetto alle transazioni normali ($42,85). Questo suggerisce che gli importi più alti potrebbero essere un segnale utile per il rilevamento di frodi.
+
+ **Le transazioni Online hanno una percentuale di frode più alta rispetto a Swipe o Chip?**
+   Risultato: le transazioni Online hanno una percentuale di frode di circa **0,84%**, molto più alta rispetto a Swipe (**0,03%**) e Chip (circa **0,1%**). Questo, nonostante Swipe sia il metodo con più transazioni totali in assoluto. Suggerisce che le transazioni online meritano controlli antifrode più stringenti.
 
 
 Tecniche Python/pandas utilizzate
